@@ -1,0 +1,142 @@
+10
+
+dir
+28050
+svn://192.168.0.13:9999/repos/jsnj-ui/WebContent/plugins/ckeditor/plugins
+svn://192.168.0.13:9999/repos
+
+
+
+2016-12-20T00:18:13.352960Z
+28050
+fy
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+979b9778-4e6a-4415-9b21-9f422494f68d
+
+
+
+
+
+
+0
+
+a11yhelp
+dir
+
+about
+dir
+
+clipboard
+dir
+
+dialog
+dir
+
+icons.png
+file
+
+
+
+
+2016-11-30T06:55:57.342000Z
+30df606419222c418c24d5cca47f66e5
+2016-12-20T00:18:13.352960Z
+28050
+fy
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10227
+
+icons_hidpi.png
+file
+
+
+
+
+2016-11-30T06:55:57.342000Z
+1f57f384a8331a0cd3b8dfadfb61f0cd
+2016-12-20T00:18:13.352960Z
+28050
+fy
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+34465
+
+image
+dir
+
+link
+dir
+
+magicline
+dir
+
+pastefromword
+dir
+
+scayt
+dir
+
+specialchar
+dir
+
+table
+dir
+
+tabletools
+dir
+
+wsc
+dir
+

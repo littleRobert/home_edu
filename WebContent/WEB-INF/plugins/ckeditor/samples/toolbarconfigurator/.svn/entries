@@ -1,0 +1,81 @@
+10
+
+dir
+28050
+svn://192.168.0.13:9999/repos/jsnj-ui/WebContent/plugins/ckeditor/samples/toolbarconfigurator
+svn://192.168.0.13:9999/repos
+
+
+
+2016-12-20T00:18:13.352960Z
+28050
+fy
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+979b9778-4e6a-4415-9b21-9f422494f68d
+
+
+
+
+
+
+0
+
+css
+dir
+
+font
+dir
+
+index.html
+file
+
+
+
+
+2016-11-30T06:55:57.498000Z
+cba9491ee26548706d123f1e2fb43f5b
+2016-12-20T00:18:13.352960Z
+28050
+fy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15449
+
+js
+dir
+
+lib
+dir
+

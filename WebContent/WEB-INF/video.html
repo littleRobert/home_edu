@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>视频</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="css/AdminLTE.min.css">
+<link rel="stylesheet" href="css/skins/skin-blue.min.css">
+
+<link rel="stylesheet" href="css/index.css">
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="dist/js/app.min.js"></script>
+<script src="js/init.js"></script>
+<script src="js/util.js"></script>
+</head>
+<body>
+	<header class="main-header">
+
+		<!-- Logo -->
+		<a href="#" class="logo "> <span class="logo-lg"><img
+				alt="" src="images/logo.png">家庭教育数学资源学习平台</span>
+		</a>
+		<!-- <nav class="navbar navbar-static-top">
+			<div class="navbar-custom-menu  myui-navbar-phone"
+				id="navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#">视频<span
+							class="sr-only">(current)</span></a></li>
+					<li><a href="#">文章</a></li>
+					<li><a href="#">讲师团</a></li>
+					<li><a href="#">教育大课堂</a></li>
+					<li>
+						<button id="login" class="btn btn-success" type="button">登录</button>
+					</li>
+				</ul>
+			</div>
+
+
+		</nav> -->
+		<!-- 登录 -->
+		<button id="login" class="btn btn-success login-pc login-phone"
+			type="button">登录</button>
+		<!-- 导航栏 -->
+		<button type="button" class="navbar-toggle collapsed"
+			data-toggle="collapse" data-target="#navbar-collapse">
+			<i class="fa fa-bars"></i>
+		</button>
+		<div class="collapse navbar-collapse pull-right myui-navbar-phone"
+			id="navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="video.html" class="navbar-active">视频 <span
+						class="sr-only">(current)</span></a></li>
+				<li><a href="article.html">文章</a></li>
+				<li><a href="teacher.html">讲师团</a></li>
+				<li><a href="#">教育大课堂</a></li>
+			</ul>
+
+		</div>
+	</header>
+	<!-- 轮播 -->
+	<div id="carousel-example-generic" class="carousel slide"
+		data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0"
+				class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="images/big-img1.png" alt="...">
+			</div>
+			<div class="item">
+				<img src="images/big-img1.png" alt="...">
+			</div>
+		</div>
+
+	</div>
+	<!-- 导航 -->
+	<div class="video-head">
+		<div class="container">
+			<div class="row">
+				<img src="images/video-logo.png">
+				<ol class="breadcrumb">
+					<li><a href="index.html">首页</a></li>
+					<li class="active current-page">视频</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<!-- 年级选择 -->
+		<div class="row">
+			<div class="text-center big-logo">
+				<img src="images/home-edu-video.png">
+			</div>
+			<div class="video-menus">
+				<div class="margin video-grades grades text-center">
+					<div class="btn-group">
+						<div class="video-grade grade">
+							<div class="arrow arrow-selected"></div>
+							<a class="btn selected" href="#all-videos"
+								aria-controls="all-videos" role="tab" data-toggle="tab">全部</a>
+						</div>
+					</div>
+					<div class="btn-group">
+						<div class="video-grade grade">
+							<div class="arrow"></div>
+							<a class="btn" href="#infant-videos"
+								aria-controls="infant-videos" role="tab" data-toggle="tab">幼儿</a>
+						</div>
+					</div>
+					<div class="btn-group">
+						<div class="video-grade grade">
+							<div class="arrow"></div>
+							<a class="btn" href="#primary-videos"
+								aria-controls="infant-videos" role="tab" data-toggle="tab">小学</a>
+						</div>
+					</div>
+					<div class="btn-group">
+						<div class="video-grade grade">
+							<div class="arrow"></div>
+							<a class="btn" href="#junior-videos"
+								aria-controls="infant-videos" role="tab" data-toggle="tab">初中</a>
+						</div>
+					</div>
+					<div class="btn-group">
+						<div class="video-grade grade">
+							<div class="arrow"></div>
+							<a class="btn" href="#senior-videos"
+								aria-controls="infant-videos" role="tab" data-toggle="tab">高中</a>
+						</div>
+					</div>
+				</div>
+				<div class="tab-content menu-details">
+					<div role="tabpanel" class="tab-pane active" id="all-videos">
+						<div class="menu-info text-center">全部</div>
+						<div class="all-details">
+							<table class="table">
+								<tbody>
+									<tr>
+										<td width="20%"><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>家庭教育的责任与理念</a></td>
+										<td width="20%"><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>孩子的身心发展特点</a></td>
+										<td width="20%"><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>亲子沟通的方法和技巧</a></td>
+										<td width="20%"><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>孩子的身心健康</a></td>
+										<td width="20%"><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>孩子的道德品质指导</a></td>
+									</tr>
+									<tr>
+										<td><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>孩子的学业指导</a></td>
+										<td><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>孩子的交往能力</a></td>
+										<td><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>人生生涯与职业规划</a></td>
+										<td><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>家校沟通与融合</a></td>
+										<td><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>新型家长素养</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+					</div>
+					<div role="tabpanel" class="tab-pane" id="infant-videos">
+						<div class="menu-info text-center">幼儿</div>
+						<div class="all-details">
+							<table class="table">
+								<tbody>
+									<tr>
+										<td width="20%"><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>家庭教育的责任与理念</a></td>
+										<td width="20%"><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>孩子的身心发展特点</a></td>
+										<td width="20%"><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>亲子沟通的方法和技巧</a></td>
+										<td width="20%"><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>孩子的身心健康</a></td>
+										<td width="20%"><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>孩子的道德品质指导</a></td>
+									</tr>
+									<tr>
+										<td><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>孩子的学业指导</a></td>
+										<td><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>孩子的交往能力</a></td>
+										<td><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>人生生涯与职业规划</a></td>
+										<td><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>家校沟通与融合</a></td>
+										<td><span class="menu-logo"><img
+												src="images/menu-logo.png"></span><a>新型家长素养</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="primary-videos">.primary-videos.</div>
+					<div role="tabpanel" class="tab-pane" id="junior-videos">.junior-videos..</div>
+					<div role="tabpanel" class="tab-pane" id="senior-videos">senior-videos..</div>
+				</div>
+			</div>
+		</div>
+		<div class="row videos-con">
+			<div class=" video-con-left">
+				<div class="first-ad">
+					<div class="first-ad-img">
+						<img src="images/video1.png" alt="video1.png">
+					</div>
+					<div class="intr text-center font-16">母亲们呼吁 还孩子干净手机</div>
+				</div>
+				<div class="hot-videos">
+					<div class="font-16">热门视屏</div>
+					<div class="all-hot-videos">
+						<div class="media">
+							<div class="media-left">
+								<a href="#"> <img class="media-object" alt="92*69"
+									src="images/video2.png">
+								</a>
+							</div>
+							<div class="media-body">
+								<div class="font-14 hot-videos-title">家长教育要解决七大问题</div>
+								<div class="video-href">中国教育网</div>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<a href="#"> <img class="media-object" alt="92*69"
+									src="images/video2.png">
+								</a>
+							</div>
+							<div class="media-body">
+								<div class="font-14 hot-videos-title">家长教育要解决七大问题</div>
+								<div class="video-href">中国教育网</div>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<a href="#"> <img class="media-object" alt="92*69"
+									src="images/video2.png">
+								</a>
+							</div>
+							<div class="media-body">
+								<div class="font-14 hot-videos-title">家长教育要解决七大问题</div>
+								<div class="video-href">中国教育网</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="video-con-right">
+				<ul class="videos-list">
+					<li>
+						<div class="">
+							<div class="info-box">
+								<a href="video_detail.html" class="info-box-icon bg-aqua"> 
+								<img class="players" src="images/players.png"> <img src="images/video3.png">
+								</a>
+
+								<div class="video-box-content">
+									<h3>父母和子女，究竟是谁来成就谁！</h3>
+									<p class="video-box-text">
+										在生命之旅中，我们的上半程没有孩子与之同行；孩子的下半程，我们也不可能与之共度。总归，他的旅程只能他自己去走。...</p>
+									<p class="like">
+										<a type="button" class="btn btn-default"><span><img
+												src="images/like.png" alt="like"></span>推荐</a>
+									</p>
+									<div class="news-from">
+										<span class="video-href">网易新闻中心</span> <span
+											class="video-date">2017-02-02</span>
+									</div>
+								</div>
+								<!-- /.info-box-content -->
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="">
+							<div class="info-box">
+								<a href="#" class="info-box-icon bg-aqua"> <img
+									 class="players" src="images/players.png"> <img src="images/video3.png">
+								</a>
+
+								<div class="video-box-content">
+									<h3>父母和子女，究竟是谁来成就谁！</h3>
+									<p class="video-box-text">
+										在生命之旅中，我们的上半程没有孩子与之同行；孩子的下半程，我们也不可能与之共度。总归，他的旅程只能他自己去走。...</p>
+									<p class="like">
+										<a type="button" class="btn btn-default"><span><img
+												src="images/like.png" alt="like"></span>推荐</a>
+									</p>
+									<div class="news-from">
+										<span class="video-href">网易新闻中心</span> <span
+											class="video-date">2017-02-02</span>
+									</div>
+								</div>
+								<!-- /.info-box-content -->
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="">
+							<div class="info-box">
+								<a href="#" class="info-box-icon bg-aqua"> <img
+									class="players" src="images/players.png"> <img src="images/video3.png">
+								</a>
+
+								<div class="video-box-content">
+									<h3>父母和子女，究竟是谁来成就谁！</h3>
+									<p class="video-box-text">
+										在生命之旅中，我们的上半程没有孩子与之同行；孩子的下半程，我们也不可能与之共度。总归，他的旅程只能他自己去走。...</p>
+									<p class="like">
+										<a type="button" class="btn btn-default"><span><img
+												src="images/like.png" alt="like"></span>推荐</a>
+									</p>
+									<div class="news-from">
+										<span class="video-href">网易新闻中心</span> <span
+											class="video-date">2017-02-02</span>
+									</div>
+								</div>
+								<!-- /.info-box-content -->
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="">
+							<div class="info-box">
+								<a href="#" class="info-box-icon bg-aqua"> <img
+									class="players" src="images/players.png"> <img src="images/video3.png">
+								</a>
+
+								<div class="video-box-content">
+
+									<h3>父母和子女，究竟是谁来成就谁！</h3>
+									<p class="video-box-text">
+										在生命之旅中，我们的上半程没有孩子与之同行；孩子的下半程，我们也不可能与之共度。总归，他的旅程只能他自己去走。...</p>
+
+
+									<p class="like">
+										<a type="button" class="btn btn-default"><span><img
+												src="images/like.png" alt="like"></span>推荐</a>
+									</p>
+									<div class="news-from">
+										<span class="video-href">网易新闻中心</span> <span
+											class="video-date">2017-02-02</span>
+									</div>
+								</div>
+								<!-- /.info-box-content -->
+							</div>
+						</div>
+					</li>
+				</ul>
+				<nav class="text-center" aria-label="Page navigation text-center">
+					<ul class="pagination">
+						<li><a href="#" aria-label="Previous"> <span aria-hidden="true">&laquo;</span></a></li>
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a class=disabled>...</a></li>
+						<li><a href="#">20</a></li>
+						<li><a href="#" aria-label="Next"> <span aria-hidden="true">&raquo;</span></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<footer class="footer-bkg">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<p class="school">盐城校区</p>
+					<p>建军中路16号（建军路与迎宾路国美电器向东80米路北）</p>
+					<p>联系人：胡老师</p>
+					<p>联系电话：0515 - 83065661</p>
+				</div>
+				<div class="col-sm-4">
+					<p class="school">建湖校区</p>
+					<p>兴建路中心幼儿园二、三、四楼</p>
+					<p>联系人：江老师</p>
+					<p>联系电话：13962025106</p>
+				</div>
+				<div class="col-sm-4">
+					<p class="school">滨海校区</p>
+					<p>育才路与中市路十字路口五楼</p>
+					<p>联系人：沈校长</p>
+					<p>联系电话：0515 - 84287198</p>
+				</div>
+				<div class="col-xs-12 text-center copyright">
+					<p>Copyright©2016 版权所有：盐城市天天向上网络课堂 由江苏优胜信息技术有限公司提供技术支持</p>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+	<script type="text/javascript">
+		$(".video-grade").clickGrade();
+	</script>
+</body>
+</html>
